@@ -6,17 +6,15 @@ body {
     padding: 20px;
 }
 
-
-
 h1 {
-    color: #2b5b84;
+    color: #8316b6;
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 h2 {
-    color: #4a7c59;
-    border-bottom: 2px solid #4a7c59;
+    color: #ff6fdb;
+    border-bottom: 2px solid #ff6fdbb3;
     padding-bottom: 5px;
     margin-top: 30px;
 }
@@ -45,7 +43,7 @@ p{
     justify-content: flex-end;
     background-color:  #FFFFFF;
     padding: 5px 50px;
-    border-bottom: 2px solid #000000;
+    border-bottom: 3px solid #8d20b1;
 }
 
 .nav-links{
@@ -54,7 +52,61 @@ p{
 }
 
 .nav-links a{
-    color: black;
+    color: rgb(228, 28, 232);
     text-decoration: none;
     font-size: 16px;
+}
+
+.divtxt{
+    margin: auto ;
+    width: 50%;
+}
+
+.divtxt img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.divimg{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Para que el texto se acomode al lado de la imagen */
+.fila {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* Ajustamos el tamaño de las imágenes */
+
+/* Mueve la imagen a la izquierda */
+.izquierda {
+  float: left;
+  margin-right: 30px;
+}
+
+/* Mueve la imagen a la derecha */
+.derecha {
+  float: right;
+  margin-left: 30px;
+}
+
+.flex-papel{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-papel{
+    margin-left: 30px;
+    margin-top: 20px;
 }
